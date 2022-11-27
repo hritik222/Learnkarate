@@ -139,7 +139,7 @@ section#nextEvent {
 /* Subscribe section  here */
 section#subscribe {
     padding: 30px 0;
-    background: url(../images/subs.jpg) no-repeat right top;
+    background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
 }
@@ -156,7 +156,7 @@ section#subscribe {
 /* Fighter section  here */
 section#fighter {
     padding: 30px 0;
-    background: url(../images/training.jpg) no-repeat;
+    background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
@@ -168,7 +168,7 @@ section#fighter {
 /* Admission section  here */
 section#admission {
     padding: 30px 0;
-    background: url(../images/background.jpg) no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
