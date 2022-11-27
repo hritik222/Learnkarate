@@ -1,0 +1,150 @@
+@media screen and (max-width: 768px) {
+    .navLink ul li {
+        list-style: none;
+        margin: 4px 5px;
+        padding: 0px 10px;
+    }
+
+    .navLink ul li {
+        font-size: 0.8em;
+    }
+
+    .headerbtn {
+        margin: 0px 5px;
+        padding: 3px 11px;
+        font-size: 0.8em;
+    }
+
+    .bannerTxt h1 {
+        font-size: 5em;
+    }
+
+    .infoBx {
+        padding: 25px 15px;
+        margin: auto;
+    }
+
+    .infoBx h2 {
+        font-size: 1em;
+    }
+
+    input.formInput,
+    lable {
+        font-size: 0.8em;
+    }
+
+    .foot-link ul li {
+        padding: 0px 10px;
+    }
+
+    .foot-link ul li a {
+        font-size: 0.7em;
+    }
+
+    .copyright {
+        color: #686868;
+        font-size: 0.6rem;
+    }
+
+
+    #respNav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+
+    #navbackground {
+        padding: 6px 0px;
+    }
+
+    .bannerTxt h1 {
+        font-size: 3em;
+    }
+
+    .subscribeText {
+        padding: 0 20px;
+        font-size: 0.5em;
+    }
+
+    .headerbtn {
+        margin: 0px 5px;
+        font-size: 0.7em;
+    }
+
+    .infoBx h2 {
+        font-size: 0.5em;
+        color: #fff;
+    }
+
+    .infoBx p {
+        font-size: 0.5em;
+    }
+
+    input.formInput,
+    lable {
+        font-size: 0.7em;
+        margin: 2px 0 10px 0;
+    }
+
+    .col-3.buttons {
+        margin: auto;
+    }
+
+    .foot-link ul li {
+        padding: 0px 10px;
+    }
+
+    .foot-link ul li a {
+        font-size: 0.7em;
+    }
+
+    .copyright {
+        color: #686868;
+        font-size: 0.6rem;
+    }
+
+    .nav {
+        display: none !important;
+    }
+
+    #respNav {
+        height: 55px;
+        overflow: hidden;
+        display: block;
+        transition: 0.5s;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    img.menu-icon {
+        width: 25px;
+        filter: invert(1);
+    }
+
+    .navLink ul {
+        display: inline-flex;
+        margin: auto;
+        padding: 0px 0 10px 0;
+    }
+
+    .navLink ul li {
+        list-style: none;
+        margin: 0px 0px;
+        padding: 10px 14px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    #respNav {
+        display: none;
+    }
+}

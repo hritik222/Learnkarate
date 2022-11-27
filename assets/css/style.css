@@ -1,0 +1,314 @@
+/*css reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 27, 43);
+}
+
+#header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#navbackground {
+    width: 100%;
+    /* padding: 6px 0px; */
+    z-index: 999999;
+    transition: 0.5s;
+}
+
+.bannerTxt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: linear-gradient(45deg, #000000f2, #00000029);
+}
+
+.bannerTxt h1 {
+    text-align: center;
+    font-size: 8em;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.logo img {
+    width: 50px;
+}
+
+.col-9.navLink {
+    display: flex;
+    align-items: center;
+}
+
+.navLink ul {
+    display: inline-flex;
+    margin: auto;
+}
+
+.navLink ul li {
+    list-style: none;
+    margin: 4px 25px;
+    padding: 0px 9px;
+}
+
+.navLink ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.navLink ul li a:hover {
+    color: rgb(178 179 185);
+}
+
+/*button section*/
+.col-2.buttons {
+    margin: auto;
+    text-align: center;
+}
+
+.headerbtn {
+    margin: 0px 5px;
+    padding: 6px 20px;
+    font-size: 0.9em;
+    font-family: 'Recursive', sans-serif;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: rgb(100, 107, 240);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.headerbtn:hover {
+    background: rgb(23, 26, 78);
+}
+
+/* navigation end */
+
+/* Live streming section */
+
+section#livestreming {
+    padding: 30px 0;
+    background: #fffcf2;
+}
+
+.headtext {
+    text-align: center;
+    margin: 20px 0;
+    color: #000;
+}
+
+img.liveImg {
+    width: 100%;
+}
+
+/* live Streming section end here */
+
+/* Recommended section here */
+
+section#recommended {
+    padding: 30px 0;
+    background: #f7f0d9;
+}
+
+/* Recommended section end here */
+
+/* next event section here */
+section#nextEvent {
+    padding: 30px 0;
+    background: #bbbba2ea;
+}
+
+/* next event section end here */
+
+/* Subscribe section  here */
+section#subscribe {
+    padding: 30px 0;
+    background: url(/assets/images/background1.jpg) no-repeat right top;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.subscribeText {
+    padding: 0 100px;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+}
+
+/* Subscribe section end here */
+
+/* Fighter section  here */
+section#fighter {
+    padding: 30px 0;
+    background: url(/assets/images/training.jpg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Fighter section end here */
+
+/* Admission section  here */
+section#admission {
+    padding: 30px 0;
+    background: url(/assets/images/background.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.infoBx {
+    padding: 65px 15px;
+    margin: auto;
+}
+
+.infoBx h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(185 58 41);
+    line-height: 2;
+    text-align: center;
+}
+
+.infoBx p {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+/* Admission section end here */
+
+
+/* form section  here*/
+section#form {
+    padding: 30px 0;
+    background: #f7f0d9;
+}
+
+input.formInput {
+    width: 100%;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 2px 0 20px 0;
+    padding: 10px;
+    outline: none;
+}
+
+lable {
+    font-size: 1em;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+/* form section end here */
+
+/* Footer section  here*/
+#footer {
+    padding: 20px 0 0 0;
+    background: #000000;
+}
+
+.foot-link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.foot-link ul li {
+    padding: 10px 20px;
+}
+
+.foot-link ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.1rem;
+}
+
+.foot-link ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    font-size: 0.7rem;
+}
+
+hr {
+    width: 100%;
+    display: block;
+}
+
+/* Footer section end here */
+
+
+/* Making sticky navigation  */
+.sticky {
+    position: fixed;
+    background-color: #000000fb;
+    padding: 8px 0px;
+}
+
+/* Pre-loader is here  */
+#preloader {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(176 175 247);
+    position: fixed;
+    top: 0;
+    z-index: 999999999;
+}
+
+.loader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loder-logo {
+    width: 200px;
+}
+
+.loder-logo img {
+    width: 100%;
+}
+
+
+.buttons {
+    text-align: center;
+}
