@@ -20,7 +20,7 @@ function menuclick() {
 
     var topNav = document.getElementById("respNav");
     if (topNav.style.height === "55px") {
-        topNav.style.height = "139px";
+        topNav.style.height = "160px";
     } else {
         topNav.style.height = "55px";
     }

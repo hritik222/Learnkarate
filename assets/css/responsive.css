@@ -148,3 +148,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .navLink ul li a {
+        font-size: 0.6em;
+    }
+}
